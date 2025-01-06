@@ -25,7 +25,9 @@ namespace MasterEventos.API.Controllers
 
         public Evento GetByID(int id)
         {
-           return _context.Eventos.FirstOrDefault(Evento => Evento.EventoId == id);
+            #pragma warning disable CS8603 // Possível retorno de referência nula.
+            return _context.Eventos.FirstOrDefault(Evento => Evento.EventoId == id);
+            #pragma warning restore CS8603 // Possível retorno de referência nula.
         }
     }
 }
