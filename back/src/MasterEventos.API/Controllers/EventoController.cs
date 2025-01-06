@@ -31,12 +31,20 @@ namespace MasterEventos.API.Controllers
                     QtdPessoas = 120,
                     DataEvento =  DateTime.Now.AddDays(10).ToString(),
                     ImageURL = "foto2.png"
+                },
+                 new Evento(){
+                    EventoId = 3,
+                    Tema = "Aprendendo Python",
+                    Local = "Florianópolis",
+                    Lote = "1° Lote",
+                    QtdPessoas = 520,
+                    DataEvento =  DateTime.Now.AddDays(20).ToString(),
+                    ImageURL = "foto3.png"
                 }
+
         };
         public EventoController()
         {
-
-
         }
 
         [HttpGet]
@@ -52,5 +60,6 @@ namespace MasterEventos.API.Controllers
         {
            return _evento.Where(Evento => Evento.EventoId == id);
         }
+
     }
 }
