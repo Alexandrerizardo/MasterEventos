@@ -1,4 +1,15 @@
+using MasterEventos.API.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Essa é a configuração para pegar a string de conexão do appsettings.json
+var connectionString = builder.Configuration.GetConnectionString("Default");
+
+//Criamos o contexto e adicionamos a string de comnexão no dbContext
+builder.Services.AddDbContext<DataContext>(
+    context => context.UseSqlite(connectionString)
+);
 
 builder.Services.AddControllers(); 
 builder.Services.AddEndpointsApiExplorer();
