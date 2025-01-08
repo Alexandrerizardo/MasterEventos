@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterEventos.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d84198c8dfec2b7d54f2c846d24e9cd9205e8d51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce078907659961dc1bc566899050cd42efd26c17")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterEventos.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterEventos.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
