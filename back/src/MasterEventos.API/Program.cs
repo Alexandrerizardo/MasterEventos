@@ -11,7 +11,8 @@ builder.Services.AddDbContext<DataContext>(
     context => context.UseSqlite(connectionString)
 );
 
-builder.Services.AddControllers(); 
+builder.Services.AddControllers();
+builder.Services.AddCors(); 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -27,7 +28,11 @@ app.UseHttpsRedirection();
 
 app.UseRouting(); 
 
-app.UseAuthorization(); 
+app.UseAuthorization();
+
+app.UseCors(cors => cors.AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowAnyOrigin());
 
 app.MapControllers();
 
