@@ -14,5 +14,6 @@ namespace MasterEventos.API.Data
 
         //com essa propriedade a gente cria a tabela no banco utilizando o ef
         public DbSet<Evento> Eventos { get; set; }
+        public DbSet<Palestrante> Palestrantes {get; set;}
     }
 }
