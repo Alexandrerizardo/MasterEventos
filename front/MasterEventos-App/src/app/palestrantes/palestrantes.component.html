@@ -1,1 +1,8 @@
 <p>palestrantes works!</p>
+
+<hr>
+<div *ngFor="let palestrante of palestrantes">
+    <p><b>Nome: </b> {{ palestrante.nome}}</p>
+    <p><b>Linkedin: </b>{{ palestrante.linkedin}}</p>
+    <hr>
+</div>
