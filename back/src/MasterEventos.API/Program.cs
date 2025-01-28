@@ -1,4 +1,5 @@
-using MasterEventos.API.Data;
+using MasterEventos.Persistence;
+using MasterEventos.Persistence.Contexto;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Default");
 
 //Criamos o contexto e adicionamos a string de comnexão no dbContext
-builder.Services.AddDbContext<DataContext>(
+builder.Services.AddDbContext<MasterEventosContext>(
     context => context.UseSqlite(connectionString)
 );
 

@@ -158,3 +158,12 @@ D:\Projects\MasterEventos\back\src\MasterEventos.API\bin\Debug\net8.0\runtimes\w
 D:\Projects\MasterEventos\back\src\MasterEventos.API\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Projects\MasterEventos\back\src\MasterEventos.API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\Projects\MasterEventos\back\src\MasterEventos.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\bin\Debug\net8.0\MasterEventos.API.staticwebassets.endpoints.json
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\bin\Debug\net8.0\MasterEventos.Application.dll
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\bin\Debug\net8.0\MasterEventos.Domain.dll
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\bin\Debug\net8.0\MasterEventos.Persistence.dll
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\bin\Debug\net8.0\MasterEventos.Application.pdb
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\bin\Debug\net8.0\MasterEventos.Domain.pdb
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\bin\Debug\net8.0\MasterEventos.Persistence.pdb
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Projects\MasterEventos\back\src\MasterEventos.Api\obj\Debug\net8.0\staticwebassets\msbuild.MasterEventos.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
